@@ -1,0 +1,237 @@
+ERROR - 2023-03-27 08:23:13 --> mysqli_sql_exception: Column 'status' in where clause is ambiguous in D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `q`.*, `...', 0)
+#1 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `q`.*, `...')
+#2 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `q`.*, `...')
+#3 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `q`.*, `...', Array, false)
+#4 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\app\Models\QcdocModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\app\Controllers\Dashboard.php(21): App\Models\QcdocModel->getQcdocAndStatusByUser()
+#6 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Dashboard->index()
+#7 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\Quality Cont...')
+#11 {main}
+CRITICAL - 2023-03-27 08:23:13 --> Column 'status' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `q`.*, `qs`.*, `u`.`fullname` as `pic_name`
+FROM `qcdoc` `q`
+JOIN `qcdoc_status` `qs` ON `q`.`idQc` = `qs`.`qcId`
+JOIN `users` `u` ON `q`.`user_id` = `u`.`id`
+WHERE `status` = \'1\'
+OR `status` = \'3\'
+ORDER BY `qs`.`idStatus` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `q`.*, `qs`.*, `u`.`fullname` as `pic_name`
+FROM `qcdoc` `q`
+JOIN `qcdoc_status` `qs` ON `q`.`idQc` = `qs`.`qcId`
+JOIN `users` `u` ON `q`.`user_id` = `u`.`id`
+WHERE `status` = \'1\'
+OR `status` = \'3\'
+ORDER BY `qs`.`idStatus` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `q`.*, `qs`.*, `u`.`fullname` as `pic_name`
+FROM `qcdoc` `q`
+JOIN `qcdoc_status` `qs` ON `q`.`idQc` = `qs`.`qcId`
+JOIN `users` `u` ON `q`.`user_id` = `u`.`id`
+WHERE `status` = \'1\'
+OR `status` = \'3\'
+ORDER BY `qs`.`idStatus` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `q`.*, `qs`.*, `u`.`fullname` as `pic_name`
+FROM `qcdoc` `q`
+JOIN `qcdoc_status` `qs` ON `q`.`idQc` = `qs`.`qcId`
+JOIN `users` `u` ON `q`.`user_id` = `u`.`id`
+WHERE `status` = :status:
+OR `status` = :status.1:
+ORDER BY `qs`.`idStatus` DESC', [...], false)
+ 5 APPPATH\Models\QcdocModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(21): App\Models\QcdocModel->getQcdocAndStatusByUser()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 08:23:26 --> mysqli_sql_exception: Column 'status' in where clause is ambiguous in D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `q`.*, `...', 0)
+#1 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `q`.*, `...')
+#2 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `q`.*, `...')
+#3 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `q`.*, `...', Array, false)
+#4 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\app\Models\QcdocModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\app\Controllers\Dashboard.php(21): App\Models\QcdocModel->getQcdocAndStatusByUser()
+#6 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Dashboard->index()
+#7 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\Quality Cont...')
+#11 {main}
+CRITICAL - 2023-03-27 08:23:26 --> Column 'status' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `q`.*, `qs`.*, `u`.`fullname` as `pic_name`
+FROM `qcdoc` `q`
+JOIN `qcdoc_status` `qs` ON `q`.`idQc` = `qs`.`qcId`
+JOIN `users` `u` ON `q`.`user_id` = `u`.`id`
+WHERE `status` = \'1\'
+OR `status` = \'3\'
+ORDER BY `qs`.`idStatus` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `q`.*, `qs`.*, `u`.`fullname` as `pic_name`
+FROM `qcdoc` `q`
+JOIN `qcdoc_status` `qs` ON `q`.`idQc` = `qs`.`qcId`
+JOIN `users` `u` ON `q`.`user_id` = `u`.`id`
+WHERE `status` = \'1\'
+OR `status` = \'3\'
+ORDER BY `qs`.`idStatus` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `q`.*, `qs`.*, `u`.`fullname` as `pic_name`
+FROM `qcdoc` `q`
+JOIN `qcdoc_status` `qs` ON `q`.`idQc` = `qs`.`qcId`
+JOIN `users` `u` ON `q`.`user_id` = `u`.`id`
+WHERE `status` = \'1\'
+OR `status` = \'3\'
+ORDER BY `qs`.`idStatus` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `q`.*, `qs`.*, `u`.`fullname` as `pic_name`
+FROM `qcdoc` `q`
+JOIN `qcdoc_status` `qs` ON `q`.`idQc` = `qs`.`qcId`
+JOIN `users` `u` ON `q`.`user_id` = `u`.`id`
+WHERE `status` = :status:
+OR `status` = :status.1:
+ORDER BY `qs`.`idStatus` DESC', [...], false)
+ 5 APPPATH\Models\QcdocModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(21): App\Models\QcdocModel->getQcdocAndStatusByUser()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 08:23:31 --> mysqli_sql_exception: Column 'status' in where clause is ambiguous in D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `q`.*, `...', 0)
+#1 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `q`.*, `...')
+#2 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `q`.*, `...')
+#3 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `q`.*, `...', Array, false)
+#4 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\app\Models\QcdocModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\app\Controllers\Dashboard.php(21): App\Models\QcdocModel->getQcdocAndStatusByUser()
+#6 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Dashboard->index()
+#7 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\Quality Cont...')
+#11 {main}
+CRITICAL - 2023-03-27 08:23:31 --> Column 'status' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `q`.*, `qs`.*, `u`.`fullname` as `pic_name`
+FROM `qcdoc` `q`
+JOIN `qcdoc_status` `qs` ON `q`.`idQc` = `qs`.`qcId`
+JOIN `users` `u` ON `q`.`user_id` = `u`.`id`
+WHERE `status` = \'1\'
+OR `status` = \'3\'
+ORDER BY `qs`.`idStatus` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `q`.*, `qs`.*, `u`.`fullname` as `pic_name`
+FROM `qcdoc` `q`
+JOIN `qcdoc_status` `qs` ON `q`.`idQc` = `qs`.`qcId`
+JOIN `users` `u` ON `q`.`user_id` = `u`.`id`
+WHERE `status` = \'1\'
+OR `status` = \'3\'
+ORDER BY `qs`.`idStatus` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `q`.*, `qs`.*, `u`.`fullname` as `pic_name`
+FROM `qcdoc` `q`
+JOIN `qcdoc_status` `qs` ON `q`.`idQc` = `qs`.`qcId`
+JOIN `users` `u` ON `q`.`user_id` = `u`.`id`
+WHERE `status` = \'1\'
+OR `status` = \'3\'
+ORDER BY `qs`.`idStatus` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `q`.*, `qs`.*, `u`.`fullname` as `pic_name`
+FROM `qcdoc` `q`
+JOIN `qcdoc_status` `qs` ON `q`.`idQc` = `qs`.`qcId`
+JOIN `users` `u` ON `q`.`user_id` = `u`.`id`
+WHERE `status` = :status:
+OR `status` = :status.1:
+ORDER BY `qs`.`idStatus` DESC', [...], false)
+ 5 APPPATH\Models\QcdocModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(21): App\Models\QcdocModel->getQcdocAndStatusByUser()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-27 09:19:29 --> Undefined array key "status"
+in APPPATH\Controllers\Qcdoc.php on line 188.
+ 1 APPPATH\Controllers\Qcdoc.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Controllers\\Qcdoc.php', 188)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->edit('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 09:48:39 --> mysqli_sql_exception: FUNCTION final_qcdoc.CURRDATE does not exist in D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGH...', 0)
+#1 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGH...')
+#2 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGH...')
+#3 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\app\Models\QcdocModel.php(84): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGH...')
+#4 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\app\Controllers\Qcdoc.php(57): App\Models\QcdocModel->getReffNo()
+#5 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Qcdoc->create_view()
+#6 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+#7 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\Quality Cont...')
+#10 {main}
+CRITICAL - 2023-03-27 09:48:39 --> FUNCTION final_qcdoc.CURRDATE does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGHT(referenceNo,2)) AS kd_max FROM qcdoc  WHERE DATE(created_at)=CURRDATE()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGHT(referenceNo,2)) AS kd_max FROM qcdoc  WHERE DATE(created_at)=CURRDATE()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGHT(referenceNo,2)) AS kd_max FROM qcdoc  WHERE DATE(created_at)=CURRDATE()')
+ 4 APPPATH\Models\QcdocModel.php(84): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGHT(referenceNo,2)) AS kd_max FROM qcdoc  WHERE DATE(created_at)=CURRDATE()')
+ 5 APPPATH\Controllers\Qcdoc.php(57): App\Models\QcdocModel->getReffNo()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->create_view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-03-27 22:53:26 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost:3306', 'root', '', 'final_qcdoc', 3306, '', 0)
+#1 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, '1')
+#6 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('1')
+#7 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('/', 'before')
+#11 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\Quality Cont...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, '1')
+#5 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('1')
+#6 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#7 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+#8 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#9 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('/', 'before')
+#10 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\Quality Control\Final_QCdoc\Final_QCDOC\Project QC\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\Quality Cont...')
+#13 {main}
+CRITICAL - 2023-03-27 22:53:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`id` = :users.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '1')
+ 5 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('1')
+ 6 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+ 7 VENDORPATH\myth\auth\src\Filters\LoginFilter.php(29): Myth\Auth\Authentication\LocalAuthenticator->check()
+ 8 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('D:\\', 'before')
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

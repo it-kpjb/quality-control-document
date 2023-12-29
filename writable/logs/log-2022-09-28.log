@@ -1,0 +1,40 @@
+CRITICAL - 2022-09-28 20:57:57 --> Invalid file: SuperAdmin/dashboardSuperAdmin.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('SuperAdmin/dashboardSuperAdmin.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('SuperAdmin/dashboardSuperAdmin', [], true)
+ 3 APPPATH\Controllers\SA_User.php(14): view('SuperAdmin/dashboardSuperAdmin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\SA_User->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SA_User))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 21:00:24 --> Invalid file: SuperAdmin/dashboardSuperAdmin.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('SuperAdmin/dashboardSuperAdmin.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('SuperAdmin/dashboardSuperAdmin', [], true)
+ 3 APPPATH\Controllers\SA_User.php(14): view('SuperAdmin/dashboardSuperAdmin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\SA_User->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SA_User))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 21:00:26 --> Invalid file: SuperAdmin/dashboardSuperAdmin.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('SuperAdmin/dashboardSuperAdmin.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('SuperAdmin/dashboardSuperAdmin', [], true)
+ 3 APPPATH\Controllers\SA_User.php(14): view('SuperAdmin/dashboardSuperAdmin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\SA_User->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SA_User))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 21:01:15 --> Invalid file: SuperAdmin/dashboardSuperAdmin.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('SuperAdmin/dashboardSuperAdmin.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('SuperAdmin/dashboardSuperAdmin', [], true)
+ 3 APPPATH\Controllers\SA_User.php(14): view('SuperAdmin/dashboardSuperAdmin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\SA_User->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SA_User))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

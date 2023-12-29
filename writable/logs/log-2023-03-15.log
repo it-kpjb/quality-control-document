@@ -1,0 +1,300 @@
+CRITICAL - 2023-03-15 22:33:08 --> syntax error, unexpected token "<"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('14')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:34:32 --> syntax error, unexpected token ")"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('14')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:34:34 --> syntax error, unexpected token ")"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('14')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:34:35 --> syntax error, unexpected token ")"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('14')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:34:39 --> syntax error, unexpected token ")"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('14')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:36:44 --> syntax error, unexpected token ")"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('14')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:36:45 --> syntax error, unexpected token ")"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('14')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:36:46 --> syntax error, unexpected token ")"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('14')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:36:49 --> syntax error, unexpected token ")"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('14')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:40:16 --> syntax error, unexpected token ")"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('14')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:40:20 --> syntax error, unexpected token ")"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('17')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:44:48 --> syntax error, unexpected token ")"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('17')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:45:09 --> syntax error, unexpected token ":"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('14')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:47:25 --> syntax error, unexpected token ":"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('14')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:47:39 --> syntax error, unexpected token ":"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('17')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:48:02 --> syntax error, unexpected token ";"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('17')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:48:03 --> syntax error, unexpected token ";"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('17')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:48:21 --> syntax error, unexpected token ","
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('17')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:48:26 --> syntax error, unexpected token ","
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('14')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:48:49 --> syntax error, unexpected token ";"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('14')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:49:01 --> syntax error, unexpected token ";"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('14')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:49:02 --> syntax error, unexpected token ";"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('14')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:49:07 --> syntax error, unexpected token ";"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('17')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:49:08 --> syntax error, unexpected token ";"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('17')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:49:09 --> syntax error, unexpected token ";"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('17')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 22:49:09 --> syntax error, unexpected token ";"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('17')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 23:02:43 --> syntax error, unexpected token ";"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('14')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 23:02:44 --> syntax error, unexpected token ";"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('14')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 23:02:47 --> syntax error, unexpected token ";"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('14')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 23:02:50 --> syntax error, unexpected token ";"
+in APPPATH\Views\qcdoc\approval.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('qcdoc/approval', [], true)
+ 3 APPPATH\Controllers\Qcdoc.php(96): view('qcdoc/approval', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->approval('14')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

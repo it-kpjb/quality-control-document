@@ -1,0 +1,32 @@
+CRITICAL - 2023-03-12 21:58:58 --> Undefined array key "status"
+in APPPATH\Controllers\Qcdoc.php on line 163.
+ 1 APPPATH\Controllers\Qcdoc.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Controllers\\Qcdoc.php', 163)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->edit('13')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 21:59:41 --> Undefined array key "status"
+in APPPATH\Controllers\Qcdoc.php on line 163.
+ 1 APPPATH\Controllers\Qcdoc.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Controllers\\Qcdoc.php', 163)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->edit('13')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 21:59:50 --> Undefined array key "status"
+in APPPATH\Controllers\Qcdoc.php on line 163.
+ 1 APPPATH\Controllers\Qcdoc.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Controllers\\Qcdoc.php', 163)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->edit('12')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 22:01:07 --> Undefined variable $data_status
+in APPPATH\Controllers\Qcdoc.php on line 166.
+ 1 APPPATH\Controllers\Qcdoc.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_status', 'APPPATH\\Controllers\\Qcdoc.php', 166)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Qcdoc->edit('12')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Qcdoc))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
